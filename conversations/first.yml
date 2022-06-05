@@ -1,0 +1,21 @@
+quester: "請右鍵跟我互動"
+first: need
+NPC_options:
+  need:
+    text: "您要不要傳送回大廳"
+    pointers: one,two
+  cannot:
+    text: "so sad"
+    pointers: bye
+  can:
+    text: "完成"
+    events: "spawnplayer"
+player_options:
+  one:
+    text: "是，我需要"
+    pointers: can
+  two:
+    text: "否，我不需要"
+    pointers: cannot
+  bye:
+    text: "掰掰"
