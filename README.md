@@ -1,0 +1,2 @@
+# BetonQuest_basic
+一個基本的BetonQuest插件教學
